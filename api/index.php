@@ -19,7 +19,7 @@ $client = new OAuth_Client_Class;
 // Don't leak your Client Secret. If you do, make sure you regenerate it through the Portal.
 $client->redirect_uri = "https://phpdemo1.vercel.app";//"https://phpdemo1.vercel.app/api/index.php";
 $client->client_id = '01hyqp54anefh9pam4vcbx5vkm';
-$client->client_secret = 'jOxgsZ4UkCLe8b9-SKwSKftjNu3mQvR6-C2lx8GTqcApOx14jJNOD_RcNpDlbyHOQUMl4MTuNP50BK4O';
+$client->client_secret = 'P76WfAhkJreYu_4VGRtwbf_O_d6m6RiBhcNi_Zd_fcuRSEhnmTUyu8ZOukBSABqIv5_9iXvwT2qD7';
 
 // Enable debug mode
 $client->debug = 1;
