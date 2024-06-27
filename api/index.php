@@ -10,8 +10,8 @@ ob_start();
 // php -S localhost:8000
 ini_set('session.gc_maxlifetime', 300);
 
- require 'lib/httpclient/http.php';
- require 'lib/oauth-api/oauth_client.php';
+ require 'http.php';
+ require 'oauth_client.php';
   // This OAuth client will store users access tokens by using a session cookie in their web
  // browser this should suffice for you writing interactive applications. An alternative is to
  // store the tokens in a database (see database_oauth_client.php and mysqli_oauth_client.php)
