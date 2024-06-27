@@ -15,13 +15,13 @@ ini_set('session.gc_maxlifetime', 300);
   // This OAuth client will store users access tokens by using a session cookie in their web
  // browser this should suffice for you writing interactive applications. An alternative is to
  // store the tokens in a database (see database_oauth_client.php and mysqli_oauth_client.php)
-  $client = new OAuth_Client_Class;
+  //$client = new OAuth_Client_Class;
   // Extend the length of time PHP will maintain the session information about the OAuth
  // token refresh tokens are valid for 90 days, so if you store them in a persistent fashion
  // you can<?php
 
-ob_start();
-ini_set('session.gc_maxlifetime', 300);
+//ob_start();
+//ini_set('session.gc_maxlifetime', 300);
 //session_start();
 
 //require 'http.php';
