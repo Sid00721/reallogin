@@ -24,8 +24,8 @@ ob_start();
 ini_set('session.gc_maxlifetime', 300);
 session_start();
 
-require 'http.php';
-require 'oauth_client.php';
+//require 'http.php';
+//require 'oauth_client.php';
 
 $client = new OAuth_Client_Class;
 $client->redirect_uri  = 'https://reallogin.vercel.app/api/index.php';
