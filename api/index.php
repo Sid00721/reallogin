@@ -22,7 +22,7 @@ ini_set('session.gc_maxlifetime', 300);
 
 ob_start();
 ini_set('session.gc_maxlifetime', 300);
-session_start();
+//session_start();
 
 //require 'http.php';
 //require 'oauth_client.php';
