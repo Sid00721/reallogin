@@ -8,7 +8,7 @@ ob_start();
 // php -S 192.168.1.101:8000
 // php -S 153.107.45.141:8000
 // php -S localhost:8000
-ini_set('session.gc_maxlifetime', 300);
+//ini_set('session.gc_maxlifetime', 300);
 
  require 'http.php';
  require 'oauth_client.php';
