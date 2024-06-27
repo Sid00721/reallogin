@@ -1,4 +1,7 @@
 <?php
+// Enable output buffering to prevent headers from being sent prematurely
+ob_start();
+
 // Set session lifetime
 ini_set('session.gc_maxlifetime', 7200);
 
@@ -94,4 +97,7 @@ if ($success) {
     echo 'window.location.href = "profile.html";';
     echo '</script>';
 }
+
+// Flush the output buffer
+ob_end_flush();
 ?>
