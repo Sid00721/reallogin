@@ -7,7 +7,7 @@
 // php -S 153.107.45.141:8000
 // php -S localhost:8000
 
- require 'lib/httpclient/http.php';
+ //require 'lib/httpclient/http.php';
  require 'lib/oauth-api/oauth_client.php';
   // This OAuth client will store users access tokens by using a session cookie in their web
  // browser this should suffice for you writing interactive applications. An alternative is to
