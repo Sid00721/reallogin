@@ -1134,6 +1134,8 @@ class oauth_client_class
 		<do>
 {/metadocument}
 */
+
+	/*
 	Function GetAccessToken(&$access_token)
 	{
 		if(!function_exists('session_start'))
@@ -1149,6 +1151,7 @@ class oauth_client_class
 			$access_token = array();
 		return true;
 	}
+ */
 /*
 {metadocument}
 		</do>
