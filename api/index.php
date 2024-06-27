@@ -7,8 +7,8 @@
 // php -S 153.107.45.141:8000
 // php -S localhost:8000
 
- require 'lib/httpclient/http.php';
- require 'lib/oauth-api/oauth_client.php';
+ require 'http.php';
+ require 'oauth_client.php';
   // This OAuth client will store users access tokens by using a session cookie in their web
  // browser this should suffice for you writing interactive applications. An alternative is to
  // store the tokens in a database (see database_oauth_client.php and mysqli_oauth_client.php)
@@ -22,7 +22,7 @@
  ini_set('session.gc_maxlifetime', 7200);
   // Your configuration block. Register your app on the Student Portal.
  // Don't leak your Client Secret. If you do, make sure you regenerate it through the Portal.
-$client->redirect_uri  = "https://phpdemo1.vercel.app" ; //'https://localhost/sbhslogin/sbhsdemo.php'
+$client->redirect_uri  = "https://phpdemo1.vercel.app/api/index.php" ; //'https://localhost/sbhslogin/sbhsdemo.php'
  $client->client_id     = '01hy9zy7azf95bjyn0pn226sx5';
  $client->client_secret = 'jOxgsZ4UkCLe8b9-SKwSKftjNu3mQvR6-C2lx8GTqcApOx14jJNOD_RcNpDlbyHOQUMl4MTuNP50BK4O';
 
